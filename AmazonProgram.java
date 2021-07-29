@@ -146,7 +146,7 @@ public class AmazonProgram
 			 System.out.println("Xpath Done");
 			 
 		  //CHECKBOX
-			 WebElement brand = driver.findElement(By.xpath("//body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/span[1]/div[1]/span[1]/div[1]/div[1]/div[4]/ul[1]/li[2]/span[1]/a[1]/div[1]/label[1]/i[1]"));
+			 WebElement brand = driver.findElement(By.xpath("//body[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[3]/span[1]/div[1]/span[1]/div[1]/div[1]/div[3]/ul[1]/li[2]/span[1]/a[1]/div[1]/label[1]/i[1]"));
 			 brand.click();
 			 System.out.println("Checkbox Button Option selected");
 
